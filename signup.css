@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: linear-gradient(-45deg, #6c3483, #58D68D);
+    background: linear-gradient(-45deg, #58D68D, #6c3483);
     height: 100vh;
 }
 
@@ -111,11 +111,31 @@ input[type="submit"]:hover{
     color: black;
 }
 
-.registrarse a {
-    color: blue;
-    text-decoration: none;
+.genero8 {
+    font-size: 18px;
+    color: silver;
 }
 
-.registrarse a:hover {
-    text-decoration: underline;
+.home-sci {
+    display: flex;
+    justify-content: center;
 }
+
+.home-sci a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    margin: 0 10px;
+    margin-top: 15px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-bottom: 15px;
+  }
+
+  .home-sci a i {
+    font-size: 24px;
+    color: #fff;
+  }
