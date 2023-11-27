@@ -22,28 +22,9 @@ function guardarUsuario() {
     // Guarda los datos del usuario en el localStorage
     localStorage.setItem('usuario', usuarioJSON);
 
+    // Guarda el nombre del usuario en localStorage para usuario en la barra de navegacion
+    localStorage.setItem('usuario', usuarioJSON);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    // Redirige al usuario a la pagina de inicio de sesion
+    window.location.href = 'signin.html';
 }
